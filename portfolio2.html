@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio2</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="portfolio2.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,12 +18,12 @@
       src="https://kit.fontawesome.com/220d50c31a.js"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="/learning/portfolio2.js"></script>
+    <script type="text/javascript" src="portfolio2.js"></script>
   </head>
   <body>
     <div class="taskbar">
       <div class="home">
-        <a href="https://jishnu-saravanan.github.io/jishnu-portfolio/">
+        <a href="portfolio2.html">
           <i class="fa-solid fa-house"></i>
         </a>
       </div>
@@ -91,18 +91,18 @@
       
     </div> -->
 
-    <!-- -----about----- -->
+    <!-- -----about1----- -->
 
-    <div class="aboutme">
+    <!-- <div class="aboutme">
       <h2>About Me</h2>
-      <p>
+      <p2>
         Hi! I am Jishnu , a student at Indian Institute of Information
         Technology Design and Manufacturing Kanchipuram. I am currently in my
         second year B.Tech Computer Science course. I am extremely interested in
         Web and App development. My goal is to become a full fledged Web and App
         developer. I am also interested in Blockchain and have a little
         knowledge in the field.
-      </p>
+      </p2>
       <div class="block1">
         <span1>Education</span1><br />
         <div class="para1">
@@ -126,9 +126,64 @@
         </div>
       </div>
       <div class="myresume">
-        <a href="https://jishnu-saravanan.github.io/jishnu-resume/">Click here to view Resume</a>
+        <a href="/learning/resume.html">Click here to view Resume</a>
+      </div>
+    </div> -->
+
+    <!----------------- ABOUT2 --------------->
+    <div class="aboutme">
+      <h2 id="AM">About Me</h2>
+      <p>
+        Hi! I am Jishnu , a student at Indian Institute of Information
+        Technology Design and Manufacturing Kanchipuram. I am currently in my
+        second year B.Tech Computer Science course. I am extremely i nterested
+        in Web and App development. My goal is to become a full fledged Web and
+        App developer. I am also interested in Blockchain and have a little
+        knowledge in the field.
+      </p>
+      <div class="tab-titles">
+        <p
+          class="tab-links active-link"
+          id="tabname"
+          onclick="opentab('education')"
+        >
+          Eduaction
+        </p>
+        <p class="tab-links" id="tabname" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" id="tabname" onclick="opentab('works')">Works</p>
+        <p class="tab-links" id="tabname" onclick="opentab('resume')">Resume</p>
+      </div>
+
+      <div class="tab-contents active-tab" id="education">
+        <ul>
+          <li>Completed schooling in MIRS in 2021<br /></li>
+          <li>Studying in IIITDM Kanchipuram since 2021</li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="skills">
+        <ul>
+          <li>Well versed in C/C++ , Python, Kotlin<br /></li>
+          <li>Building Web Applications <br /></li>
+          <li>Building Android Apps</li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="works">
+        <ul>
+          <a href="" id="ezpay"
+            >EZPay <span>- A prototype crypto transfer web application</span></a
+          >
+        </ul>
+      </div>
+      <div class="tab-contents" id="resume">
+        <ul>
+          <a href="resume.html" id="resume" target="_blank"
+            >Resume<span> - Click here to view Resume</span></a
+          >
+        </ul>
       </div>
     </div>
+
+    <!------------- CONTACT ------------>
     <div class="container0">
       <div class="contact">
         <div style="text-align: left">
